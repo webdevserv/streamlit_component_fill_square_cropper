@@ -1,30 +1,21 @@
-# streamlit_component_fill_square_cropper - Demo
+# Streamlit - Component Square Fill Cropper Component
 
-streamlit_component_fill_square_cropper demo on Streamlit Sharing
+Streamlit Component Squares image with the adecuate color filler
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://webdevserv-portfolio-idoia-icodeidoia-portfolio-9kblei.streamlit.app/LIVE_Square_Filler_app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://webdevserv-portfolio-idoia-icodeidoia-portfolio-9kblei.streamlit.app/a_LIVE_Square_Filler_app)
 
-# streamlit_component_fill_square_cropper - Example app.py
+# installation
 
-   # Handle first image
-   url = "https://.../cowportrait.jpg" 
-   # Handle second image
-   url2 = "https://.../cowlandscape.jpg"
-   
-   st.subheader("Fill square an image demo")
-   img_description = st.text('Image will be squared with color filler where applicable.')
+pip install streamlit-component-fill-square-cropper
 
-   if st.button('Square and Fill Demo'):  
-    response = requests.get(url)
-    img = Image.open(BytesIO(response.content))
-    img.load()
 
-    generated_img = imported_fill_square_cropper(img)
-    st.image(generated_img)
+# more information 
 
-    response = requests.get(url2)
-    img = Image.open(BytesIO(response.content))
-    img.load()
+https://pypi.org/project/streamlit-component-fill-square-cropper101/0.0.5/
 
-    generated_img = imported_fill_square_cropper(img)
-    st.image(generated_img)
+# use
+
+import streamlit as st  
+
+
+from streamlit_component_fill_square_cropper101 import square_fill_cropper  
