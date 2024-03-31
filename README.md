@@ -1,12 +1,21 @@
-# Streamlit Component Fill Square Cropper101
+# Streamlit - Component Square Fill Cropper Component
 
-Streamlit Component Squares image with the adequate color filler
+Streamlit Component Squares image with the adecuate color filler
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://webdevserv-portfolio-idoia-icodeidoia-portfolio-9kblei.streamlit.app/a_LIVE_Square_Filler_app)
 
 # installation
 
 pip install streamlit-component-fill-square-cropper101
+
+
+# running locally
+
+streamlit run app.py  
+or  
+streamlit run app.py --server.enableXsrfProtection false  
+
+#temporarily disable XSRF protection, which might be causing the 403.  
 
 # use
 
