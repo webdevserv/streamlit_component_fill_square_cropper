@@ -28,7 +28,7 @@ local_css("styles/style.css")
 def main() -> None:
 
  # ---- TABS
- tab1, tab2, tab3 = st.tabs(["Demo","Application","Contact"])
+ tab1, tab2 = st.tabs(["Demo","Application"])
 
  with tab1:   
    # Handle first image
@@ -64,14 +64,7 @@ def main() -> None:
      img.load()
      generated_img = fill_square_cropper(img)
      st.image(generated_img)
- with tab3:
-    st.subheader("Contact")
-    left_column, right_column = st.columns([1,2], gap="small")
-    with left_column:
-        st.markdown('<a href="https://webdevserv.github.io/html_bites/dev/webdev.html">More info</a>', unsafe_allow_html=True)
-    with right_column:
-        #st.empty()
-        st.image(img_art, width=400)   
+
 
 if __name__ == "__main__":
   main()
