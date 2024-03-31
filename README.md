@@ -1,4 +1,4 @@
-# Streamlit - Component Square Fill Cropper Component
+# Streamlit Component Fill Square Cropper101
 
 Streamlit Component Squares image with the adequate color filler
 
