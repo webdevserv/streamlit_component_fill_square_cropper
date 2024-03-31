@@ -8,11 +8,6 @@ Streamlit Component Squares image with the adecuate color filler
 
 pip install streamlit-component-fill-square-cropper
 
-
-# more information 
-
-https://pypi.org/project/streamlit-component-fill-square-cropper101/0.0.5/
-
 # use
 
 import streamlit as st  
