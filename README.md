@@ -1,13 +1,12 @@
-# Streamlit - Component Square Fill Cropper Component
+# Streamlit Component Fill Square Cropper101
 
-Streamlit Component Squares image with the adecuate color filler
+Streamlit Component Squares image with the adequate color filler  
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://webdevserv-portfolio-idoia-icodeidoia-portfolio-9kblei.streamlit.app/a_LIVE_Square_Filler_app)
+Demo: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://webdevserv-portfolio-idoia-icodeidoia-portfolio-9kblei.streamlit.app/a_LIVE_Square_Filler_app)
 
 # installation
 
 pip install streamlit-component-fill-square-cropper101
-
 
 # running locally
 
