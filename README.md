@@ -13,12 +13,11 @@ pip install streamlit-component-fill-square-cropper101
 streamlit run app.py  
 or  
 streamlit run app.py --server.enableXsrfProtection false  
+don't forget to turn it back to true: streamlit run app.py --server.enableXsrfProtection true  
 
 #temporarily disable XSRF protection, which might be causing the 403.  
 
 # use
 
 import streamlit as st  
-
-
-from streamlit_component_fill_square_cropper101 import square_fill_cropper  
+import streamlit_component_fill_square_cropper101 as st_cropper
