@@ -38,7 +38,7 @@ def main() -> None:
             'Github: <a href="https://github.com/webdevserv/streamlit_component_fill_square_cropper101/blob/main/README.md" target="_blank">README.md</a>',
             unsafe_allow_html=True,
         )
-        https://github.com/webdevserv/streamlit_component_fill_square_cropper101/blob/main/README.md
+
         st.markdown(
             '<div style="margin: 0.75em 0;"><a href="https://www.buymeacoffee.com/Artgen" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a></div>',
             unsafe_allow_html=True,
