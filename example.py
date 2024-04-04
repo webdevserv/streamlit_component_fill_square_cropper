@@ -6,8 +6,8 @@ from PIL import Image,ImageFile
 import numpy as np
 import requests
 from io import BytesIO
-#from streamlit_component_fill_square_cropper101 import fill_square_cropper #using local
-import streamlit_component_fill_square_cropper101 as stcropper
+from streamlit_component_fill_square_cropper101 import fill_square_cropper as stcropper #using local
+#import streamlit_component_fill_square_cropper101 as stcropper
 
 #streamlit_component_fill_square_cropper101._DEBUG = True
 
