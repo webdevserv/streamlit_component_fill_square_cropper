@@ -6,7 +6,7 @@ from PIL import Image,ImageFile
 import numpy as np
 import requests
 from io import BytesIO
-from streamlit_component_fill_square_cropper101 import fill_square_cropper as stcropper #using local
+from streamlit_component_fill_square_cropper101 import fill_square_cropper #using local
 #import streamlit_component_fill_square_cropper101 as stcropper
 
 #streamlit_component_fill_square_cropper101._DEBUG = True
@@ -60,14 +60,14 @@ def main() -> None:
      img = Image.open(BytesIO(response.content))
      img.load()
 
-     generated_img = stcropper.fill_square_cropper(img)
+     generated_img = fill_square_cropper(img)
      st.image(generated_img)
 
      response = requests.get(url2)
      img = Image.open(BytesIO(response.content))
      img.load()
 
-     generated_img = stcropper.fill_square_cropper(img)
+     generated_img = fill_square_cropper(img)
      st.image(generated_img)
    
  with tab2:
@@ -78,7 +78,7 @@ def main() -> None:
    if uploaded_file is not None: 
      img = Image.open(uploaded_file)
      img.load()
-     generated_img = stcropper.fill_square_cropper(img)
+     generated_img = fill_square_cropper(img)
      st.image(generated_img)
 
 
