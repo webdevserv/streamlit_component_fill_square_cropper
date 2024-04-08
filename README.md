@@ -10,14 +10,9 @@ pip install streamlit-component-fill-square-cropper101
 
 git clone https://github.com/webdevserv/streamlit_component_fill_square_cropper101.git
 cd streamlit_component_fill_square_cropper101
-streamlit run example.py
+pip install -r requirements.txt
 
-
-## more information 
-
-https://pypi.org/project/streamlit-component-fill-square-cropper101/0.0.5/  
-
-## running locally  
+## running example
 
 streamlit run example.py  
 or  
