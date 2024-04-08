@@ -6,8 +6,11 @@ Streamlit Component Squares image with the adequate color filler
 Demo: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://appcomponentfillsquarecropper101-e6skhjrbgv7e5h9apuvgkr.streamlit.app)  
 
 ## installation  
-
 pip install streamlit-component-fill-square-cropper101  
+
+git clone https://github.com/webdevserv/streamlit_component_fill_square_cropper101.git
+cd streamlit_component_fill_square_cropper101
+streamlit run example.py
 
 
 ## more information 
